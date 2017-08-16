@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "rapidql-runner:toggle"
   },
-  "repository": "https://github.com/atom/rapidql-runner",
+  "repository": "https://github.com/davidnoah/rapidql-runner",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
