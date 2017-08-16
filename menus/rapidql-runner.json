@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle rapidql-runner",
+        "command": "rapidql-runner:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "rapidql-runner",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "rapidql-runner:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
