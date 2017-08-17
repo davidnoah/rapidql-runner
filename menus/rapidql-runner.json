@@ -15,7 +15,7 @@
           "label": "rapidql-runner",
           "submenu": [
             {
-              "label": "Toggle",
+              "label": "Run",
               "command": "rapidql-runner:toggle"
             }
           ]
