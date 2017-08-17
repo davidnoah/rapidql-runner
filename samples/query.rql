@@ -1,0 +1,8 @@
+{
+    MySQL.Demo.users.find() {
+        email,
+        RapidAPI.Mailboxlayer.checkEmail(email:email, apiKey:"2961a62aaab1109a3d5224e5f154b562") {
+            score
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "RapidAPI": {
+    "projectName": "rapidql-demo_5933abb8e4b05d38a42ea98b",
+    "apiKey": "dff51059-88e0-44e7-8a68-59290e93cc87"
+  },
+  "MySQL": {
+    "Demo":{
+      "host": "35.188.26.133",
+      "user": "rapidapi_user",
+      "password": "rapidapi",
+      "database": "public",
+      "port": "3306"
+    }
+  }
+}

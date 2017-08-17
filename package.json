@@ -13,6 +13,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "@iddo/rapidql": "git+https://github.com/iddogino/rapidql.git"
+    "@iddo/rapidql": "git+https://github.com/iddogino/rapidql.git",
+    "fs": "0.0.1-security"
   }
 }
