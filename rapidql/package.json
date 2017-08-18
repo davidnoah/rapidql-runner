@@ -1,0 +1,78 @@
+{
+  "_from": "git+https://github.com/iddogino/rapidql.git",
+  "_id": "@iddo/rapidql@0.0.2",
+  "_inBundle": false,
+  "_integrity": "sha1-y8KtG7+JBYFWMta1/sq2mYUzv3Q=",
+  "_location": "/@iddo/rapidql",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/iddogino/rapidql.git",
+    "rawSpec": "https://github.com/iddogino/rapidql.git",
+    "saveSpec": "git+https://github.com/iddogino/rapidql.git",
+    "fetchSpec": "https://github.com/iddogino/rapidql.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/iddogino/rapidql.git#d1746964c679aa154708295648ae545d617987cd",
+  "_spec": "https://github.com/iddogino/rapidql.git",
+  "_where": "/Users/davidnoah/github/rapidql-runner",
+  "author": "",
+  "bin": {
+    "rql": "bin/rql.js",
+    "rql-server": "bin/server.js"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "chai": "^4.1.0",
+    "commander": "^2.11.0",
+    "mocha": "^3.2.0",
+    "mocha-testcheck": "^1.0.0-rc.0",
+    "mongodb": "^2.2.30",
+    "mustache": "^2.3.0",
+    "mysql": "^2.13.0",
+    "nearley": "^2.7.10",
+    "nyc": "^11.0.3",
+    "pegjs": "^0.10.0",
+    "pg": "^6.1.2",
+    "query-string": "^4.3.4",
+    "rapidapi-connect": "0.0.4",
+    "redis": "^2.7.1",
+    "request": "^2.81.0",
+    "simple-rate-limiter": "^0.2.3",
+    "testcheck": "^1.0.0-rc.2"
+  },
+  "deprecated": false,
+  "description": "**RapidQL** let's developer query multiple API resources at a time, combining them to create 1 unified Query.",
+  "engines": {
+    "node": "6.1.0"
+  },
+  "keywords": [],
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "name": "@iddo/rapidql",
+  "scripts": {
+    "run": "nyc mocha --recursive",
+    "test": "./node_modules/mocha/bin/mocha  --recursive"
+  },
+  "version": "0.0.2",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": "6.1.0"
+      },
+      "pkgid": "@iddo/rapidql@0.0.2"
+    },
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": "6.1.0"
+      },
+      "pkgid": "@iddo/rapidql@0.0.2"
+    }
+  ]
+}
