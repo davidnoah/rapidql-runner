@@ -1,6 +1,4 @@
-# rapidql-runner package
-
-Run RapidQL queries directly in Atom!
+# rapidql-runner Atom Package
 
 <img src="https://storage.googleapis.com/rapid-misc-files/rapidQLogo2x.png" width="150">
 
