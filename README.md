@@ -2,7 +2,7 @@
 
 Run RapidQL queries directly in Atom!
 
-![RapidQL Logo](https://storage.googleapis.com/rapid-misc-files/rapidQLogo2x.png)
+<img src="https://storage.googleapis.com/rapid-misc-files/rapidQLogo2x.png" width="150">
 
 ## What is RapidQL?
 
