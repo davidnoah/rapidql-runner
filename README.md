@@ -2,4 +2,11 @@
 
 Run RapidQL queries directly in Atom!
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+## What is RapidQL?
+
+RapidQL is aon open source unified interface for querying datasources like databases and online APIs. RapidQL let’s you join multiple datasources together, to combine and enrich data. You can find more information at http://www.rapidql.com/ or the GitHub repo https://github.com/iddogino/rapidql.
+
+## Getting Started
+
+## Running your .rql files
+
