@@ -6,6 +6,8 @@
 
 RapidQL is an open source unified interface for querying datasources like databases and online APIs. RapidQL let’s you join multiple datasources together, to combine and enrich data. You can find more information at http://www.rapidql.com/ or the GitHub repo https://github.com/iddogino/rapidql.
 
+Domumentation: https://docs.rapidql.com/
+
 ## Getting Started
 
 This repo houses the most current version of rapidql-runner; a package to perform RapidQL querys directly in the Atom text editor.
