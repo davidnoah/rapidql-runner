@@ -1,7 +1,6 @@
-# RapidQL Runner Atom Package
-
-
 <img src="https://storage.googleapis.com/rapid-misc-files/rapidQLogo2x.png" width="150">
+
+# RapidQL Runner Atom Package
 
 ## What is RapidQL?
 
