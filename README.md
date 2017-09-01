@@ -69,4 +69,4 @@ If your current directory contains these files, select the query file in your At
 
 ## Running your .rql query
 
-In order to run the rapidql-runner, press the hotkey `CTRL-ALT-O` once a query is selected. This will cause a user interface to appear which will contains a response or any errors associated with the query.
+In order to run the rapidql-runner package, press the hotkey `CTRL-ALT-O` once a query is selected. This will cause a user interface to appear which will contains a response or any errors associated with the query.
