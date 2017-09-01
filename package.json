@@ -1,7 +1,7 @@
 {
   "name": "rapidql-runner",
   "main": "./lib/rapidql-runner",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "A short description of your package",
   "keywords": [],
   "activationCommands": {
