@@ -7,7 +7,7 @@
 
 RapidQL is an open source unified interface for querying datasources like databases and online APIs. RapidQL let’s you join multiple datasources together, to combine and enrich data. You can find more information at http://www.rapidql.com/ or the GitHub repo https://github.com/iddogino/rapidql.
 
-Domumentation: https://docs.rapidql.com/
+Documentation: https://docs.rapidql.com/
 
 ## Getting Started
 
@@ -15,15 +15,14 @@ This repo houses the most current version of rapidql-runner; a package to perfor
 
 Install the package using `apm install rapidql-runner`
 
-In your current directory, create three files
+In your current directory, create two files
 
-- options.rql
-- context.rql
-- query.rql
+- .rqloptions
+- .rqlcontext
 
 The options file contains all of your database and API connection info. You can find out more about these files by heading over to https://docs.rapidql.com/.
 
-Example options.rql file
+Example .rqloptions file
   ```
   {
   "RapidAPI": {
@@ -44,16 +43,17 @@ Example options.rql file
 
 The context file contains any variables/API keys you will need in your query.
 
-Example context.rql file
+Example .rqlcontext file
 ```
 {
   "mailboxLayerAPIKey": "###############"
 }
 ```
 
-Finally, the query file contains your mail RapidQL query.
+Now that you have created two files to house both your options and context object, you can now create an RQL query. Create a new file with the extension `.rql`. Again, you can read about writing RapidQL queries here: https://docs.rapidql.com/.
 
-Example query.rql file
+Example query
+
 ```
 {
     MySQL.Demo.users.find() {
@@ -65,8 +65,8 @@ Example query.rql file
 }
 ```
 
-You your current directory contains all these files, and each file uses correct RQL syntax, you can run this code!
+If your current directory contains these files, select the query file in your Atom file tree and run the query!
 
-## Running your .rql files
+## Running your .rql query
 
-In order to run the rapidql-runner, press the hotkey `CTRL-ALT-O`. This will cause a user interface to appear, which will contains the query response or an errors associated with the query.
+In order to run the rapidql-runner, press the hotkey `CTRL-ALT-O` once a query is selected. This will cause a user interface to appear which will contains a response or any errors associated with the query.
