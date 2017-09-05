@@ -2,7 +2,7 @@
   "_from": "git+https://github.com/iddogino/rapidql.git",
   "_id": "@iddo/rapidql@0.0.2",
   "_inBundle": false,
-  "_integrity": "sha1-UWCkUDpjb5YKZLD4lEXj9B28jJI=",
+  "_integrity": "sha1-FwEdGvaTTQsofbHJHkCU36Zjjzs=",
   "_location": "/@iddo/rapidql",
   "_phantomChildren": {},
   "_requested": {
@@ -19,7 +19,7 @@
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "git+https://github.com/iddogino/rapidql.git#d552c373eb96b06255bb8a0ade385048a03e4f75",
+  "_resolved": "git+https://github.com/iddogino/rapidql.git#0e251a5f340a0937b90f6ff20c2e874ba2b3f608",
   "_spec": "@iddo/rapidql@git+https://github.com/iddogino/rapidql.git",
   "_where": "/Users/davidnoah/github/rapidql-runner",
   "author": "",
@@ -30,6 +30,7 @@
   "bundleDependencies": false,
   "dependencies": {
     "chai": "^4.1.0",
+    "chai-as-promised": "^7.1.1",
     "commander": "^2.11.0",
     "mocha": "^3.2.0",
     "mocha-testcheck": "^1.0.0-rc.0",
