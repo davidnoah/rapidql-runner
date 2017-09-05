@@ -1,7 +1,7 @@
 /**
  * Created by iddo on 3/10/17.
  */
-const whereGenerator = require('../whereGenerator');
+const whereGenerator = require('./../whereGenerator');
 
 
 function find(DBTable, client, args) {
@@ -12,7 +12,7 @@ function find(DBTable, client, args) {
     queryString += `SELECT * FROM \`${DBTable}\``;
 
     //Add where conditions
-    queryString += whereGenerator.whereGenerator(args);
+    queryString += whereGenerator(args);
 
     return new Promise((resolve, reject) => {
         client.query(queryString, (err, result) => {

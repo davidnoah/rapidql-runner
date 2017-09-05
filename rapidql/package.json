@@ -2,23 +2,25 @@
   "_from": "git+https://github.com/iddogino/rapidql.git",
   "_id": "@iddo/rapidql@0.0.2",
   "_inBundle": false,
-  "_integrity": "sha1-y8KtG7+JBYFWMta1/sq2mYUzv3Q=",
+  "_integrity": "sha1-UWCkUDpjb5YKZLD4lEXj9B28jJI=",
   "_location": "/@iddo/rapidql",
   "_phantomChildren": {},
   "_requested": {
     "type": "git",
-    "raw": "https://github.com/iddogino/rapidql.git",
-    "rawSpec": "https://github.com/iddogino/rapidql.git",
+    "raw": "@iddo/rapidql@git+https://github.com/iddogino/rapidql.git",
+    "name": "@iddo/rapidql",
+    "escapedName": "@iddo%2frapidql",
+    "scope": "@iddo",
+    "rawSpec": "git+https://github.com/iddogino/rapidql.git",
     "saveSpec": "git+https://github.com/iddogino/rapidql.git",
     "fetchSpec": "https://github.com/iddogino/rapidql.git",
     "gitCommittish": "master"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
-  "_resolved": "git+https://github.com/iddogino/rapidql.git#d1746964c679aa154708295648ae545d617987cd",
-  "_spec": "https://github.com/iddogino/rapidql.git",
+  "_resolved": "git+https://github.com/iddogino/rapidql.git#d552c373eb96b06255bb8a0ade385048a03e4f75",
+  "_spec": "@iddo/rapidql@git+https://github.com/iddogino/rapidql.git",
   "_where": "/Users/davidnoah/github/rapidql-runner",
   "author": "",
   "bin": {
@@ -60,13 +62,6 @@
   },
   "version": "0.0.2",
   "warnings": [
-    {
-      "code": "ENOTSUP",
-      "required": {
-        "node": "6.1.0"
-      },
-      "pkgid": "@iddo/rapidql@0.0.2"
-    },
     {
       "code": "ENOTSUP",
       "required": {
